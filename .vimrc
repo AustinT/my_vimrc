@@ -1,7 +1,7 @@
 syntax enable " enable syntax processing                                
 set number " show line numbers
 set showcmd " show command in bottom bar
-set cursorline " highlight current line
+" set cursorline " highlight current line
 set wildmode=longest,list,full " some tab completion
 set wildmenu " visual autocomplete for command menu
 set lazyredraw " redraw only when necessary
@@ -33,3 +33,6 @@ set foldlevel=99
 execute pathogen#infect()
 filetype plugin indent on " load filetype-specific indent files
 
+" Attempt at setting solarized Colourscheme
+set background=dark
+colorscheme solarized8
