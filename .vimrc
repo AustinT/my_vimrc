@@ -27,6 +27,9 @@ set splitright
 set foldmethod=indent
 set foldlevel=99
 
+" Spell check for certain file types
+autocmd BufRead,BufNewFile *.md setlocal spell
+
 " Pathogen settings
 " install pathogen from here
 " https://github.com/tpope/vim-pathogen
