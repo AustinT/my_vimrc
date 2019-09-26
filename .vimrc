@@ -28,7 +28,7 @@ set foldmethod=indent
 set foldlevel=99
 
 " Spell check for certain file types
-autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.md,*.tex setlocal spell
 
 " Pathogen settings
 " install pathogen from here
